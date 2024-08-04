@@ -3,8 +3,7 @@ import useGif from './useGif';
 const Random = () => {
 
     const {gif,loading,getData}=useGif();
-    function clickHandler(){
-        
+    function clickHandler(){    
         getData();
     }
   return (
