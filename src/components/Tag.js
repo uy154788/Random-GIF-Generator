@@ -4,8 +4,7 @@ import useGif from './useGif';
 const Tag = () => {
     const [tag,setTag]=useState('car');
     const {gif,loading,getData}=useGif(tag);
-    function clickHandler(){
-        
+    function clickHandler(){ 
         getData(tag);
     }
     function changeHandler(event){
